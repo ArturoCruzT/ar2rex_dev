@@ -1,3 +1,14 @@
+//|------LibrerĂ­as------|//
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+//|------Css-------|//
+import '../src/Styles/animate.css';
+import '../src/Styles/gelita.css';
+import '../src/Styles/animate.css';
+import '../src/Styles/mdb.css';
+import '../src/Styles/modal-sidebar.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
