@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import { FaHome , FaUserGraduate } from "react-icons/fa";
+import { FaHome , FaUserGraduate, FaDev } from "react-icons/all";
 import rex from "../../Img/rex.png";
 
 function Navbar({lang,  lang_ok}) {
@@ -27,6 +27,11 @@ function Navbar({lang,  lang_ok}) {
 						<li className="nav-item">
 							<NavLink className="nav-link text-white"  to="/curriculum">
 								<span> <FaUserGraduate /> </span> {lang.get('Navbar.curriculum')}
+							</NavLink>
+						</li>
+						<li className="nav-item">
+							<NavLink className="nav-link text-white"  to="/proyectos">
+								<span> <FaDev /> </span> {lang.get('Navbar.proyectos')}
 							</NavLink>
 						</li>
 						<li className="nav-item dropdown">
