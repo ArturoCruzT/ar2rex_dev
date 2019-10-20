@@ -49,3 +49,18 @@
     bottom: 0;
     width: 100%;
 }
+
+.tamano97{
+    width: 97%;
+}
+.tamano3{
+    width: 3%;
+}
+
+.linea-right-5{
+border-right: 5px solid #ff6f00
+}
+
+.linea-bottom-5{
+border-bottom: 5px solid #0d47a1
+}

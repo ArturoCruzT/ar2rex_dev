@@ -6,7 +6,7 @@ import  joker from "../../Img/joker.jpg";
 
 function Footer() {
 	return (
-		<div className="w-100 d-flex flex-column  color-principal  text-color-5 footer">
+		<div className="w-100 d-flex flex-column  color-principal  text-color-5 footer d-print-none">
 			<div className="text-center mb-0 pt-3 pb-2 mt-0">
 				<div className="text-color-5">
 					<Tooltiphov key={"face"} placement={'left'} texto={'arturpollo'}>
@@ -26,7 +26,7 @@ function Footer() {
 					&lt;/&gt; Developed with
 					&nbsp;<span className="text-color-principal"><FaHeart/></span>&nbsp;
 					in&nbsp;
-					<img src={joker} style={{height:'1rem'}}/>
+					<img src={joker} style={{height:'1rem'}} alt="cev"/>
 					<br/>
 					{process.env.REACT_APP_VERSION}
 				</code>
