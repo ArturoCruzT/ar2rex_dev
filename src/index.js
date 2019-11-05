@@ -7,6 +7,7 @@ import '../src/Styles/animate.css';
 import '../src/Styles/gelita.css';
 import '../src/Styles/animate.css';
 import '../src/Styles/mdb.css';
+import '../src/Styles/ar2rex.css';
 import '../src/Styles/modal-sidebar.css';
 
 import React from 'react';
